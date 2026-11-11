@@ -960,5 +960,7 @@ def run_api():
     app.run(host='0.0.0.0', port=8002, debug=False, threaded=True, use_reloader=False)
 
 
+app.run(host='0.0.0.0', port=port, debug=False, threaded=True, use_reloader=False)
+
 if __name__ == "__main__":
     run_api()
